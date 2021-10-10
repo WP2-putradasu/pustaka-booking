@@ -1,12 +1,12 @@
 <?php 
-class cinema extends CI_Controller
+class Cinema extends CI_Controller
 
 {
         public function index()
     {
         $this ->load ->view ('view-input-cinema');
     }
-    public function cetak()
+        public function cetak()
     {
         $data = [
             'nama' => $this->input->post('nama'),
