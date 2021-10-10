@@ -6,7 +6,7 @@
 
 <body>
     <center>
-        <form action="<?= base_url('cinema/cetak'); ?>"
+        <form   action="<?=     base_url ('cinema / cetak'); ?>"
 method="post">
             <table>
                 <tr>

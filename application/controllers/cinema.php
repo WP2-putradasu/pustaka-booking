@@ -1,10 +1,10 @@
 <?php 
-class Cinema extends CI_Controller
+class cinema extends CI_Controller
 
 {
-    public function index()
+        public function index()
     {
-    $this->load->view('view-input-cinema');
+        $this ->load ->view ('view-input-cinema');
     }
     public function cetak()
     {
@@ -18,7 +18,7 @@ class Cinema extends CI_Controller
             'total' => $this ->input->post('total')
         ];
         
-    $this->load->view('view-output-cinema', $data);
+        $this ->load ->view ('view-output-cinema', $data);
     }
 
 }
