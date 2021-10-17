@@ -1,9 +1,10 @@
-<html>
-
-<head>
-    <title>Tampil Data Matakuliah</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
     <center>
         <table>
             <tr>
@@ -17,8 +18,8 @@
                 </td>
             </tr>
             <tr>
-                <th>Kode MTK</th>
-                <th>:</th>
+                <td>Kode MTK</td>
+                <td>:</td>
                 <td>
                     <?= $kode; ?>
                 </td>
@@ -39,12 +40,10 @@
             </tr>
             <tr>
                 <td colspan="3" align="center">
-                    <a href="<?= base_url('matakuliah'); 
-?>">Kembali</a>
+                    <a href="<?= base_url('matakuliah'); ?>">Kembali</a>
                 </td>
             </tr>
         </table>
     </center>
-</body>
-
+  </body>
 </html>
